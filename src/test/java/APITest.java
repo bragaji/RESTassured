@@ -1,9 +1,12 @@
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.equalTo;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class APITest {
+
+
 
     @Test
     void test1(){
@@ -21,7 +24,14 @@ public class APITest {
     @Test
     void test2(){
 
-        given().get("https://reqres.in/api/users?page=2").then().statusCode(200);
+        given().
+            header("x-api-key", "reqres-free-v1").when().
+        get("https://reqres.in/api/users?page=2").
+                then().
+                statusCode(200).
+                body("data[1].id",equalTo(8));
+
+
 
     }
 
