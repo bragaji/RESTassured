@@ -6,16 +6,16 @@
     <groups>
     </groups>
     <test started-at="2025-05-22T02:14:40 EDT" name="RESTassured" finished-at="2025-05-22T02:14:41 EDT" duration-ms="1535">
-      <class name="APITest">
-        <test-method signature="test1()[pri:0, instance:APITest@60704c]" started-at="2025-05-22T02:14:40 EDT" name="test1" finished-at="2025-05-22T02:14:41 EDT" duration-ms="1359" status="PASS">
+      <class name="sampleapi">
+        <test-method signature="test1()[pri:0, instance:sampleapi@60704c]" started-at="2025-05-22T02:14:40 EDT" name="test1" finished-at="2025-05-22T02:14:41 EDT" duration-ms="1359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:APITest@60704c]" started-at="2025-05-22T02:14:41 EDT" name="test2" finished-at="2025-05-22T02:14:41 EDT" duration-ms="142" status="PASS">
+        <test-method signature="test2()[pri:0, instance:sampleapi@60704c]" started-at="2025-05-22T02:14:41 EDT" name="test2" finished-at="2025-05-22T02:14:41 EDT" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-      </class> <!-- APITest -->
+      </class> <!-- sampleapi -->
     </test> <!-- RESTassured -->
   </suite> <!-- Default Suite -->
 </testng-results>

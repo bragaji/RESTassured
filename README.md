@@ -10,6 +10,7 @@ This project is a sample API automation test framework using **Java**, **Rest As
 - ✅ Test execution using **TestNG**
 - ✅ Project build and dependency management with **Maven**
 - ✅ Report generation using TestNG/Allure (optional)
+- ✅ JSON Schema Validation
 
 
 ---
