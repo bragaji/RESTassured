@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SOAP Test Suite">
+
+    <test name="SOAP Test">
+        <classes>
+            <class name="SOAP_XML_test"/>
+        </classes>
+    </test>
+</suite>

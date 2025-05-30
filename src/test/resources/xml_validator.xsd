@@ -1,0 +1,21 @@
+<xs:schema
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        targetNamespace="http://tempuri.org/"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+
+  <!-- You can import the SOAP envelope schema if needed, but avoid repeating xmlns:xs -->
+  <xs:import
+          namespace="http://schemas.xmlsoap.org/soap/envelope/"
+          schemaLocation="C:\Users\pspra\IdeaProjects\RESTassured\src\test\resources\envelope.xsd" />
+
+  <xs:element name="AddResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="AddResult" type="xs:byte"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

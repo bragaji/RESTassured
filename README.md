@@ -6,24 +6,26 @@ This project is a sample API automation test framework using **Java**, **Rest As
 
 ## 📌 Features
 
-- ✅ RESTful API testing with **Rest Assured**
+- ✅ REST API testing with **Rest Assured**
+- ✅ SOAP API/XML testing with **Rest Assured**
 - ✅ Test execution using **TestNG**
 - ✅ Project build and dependency management with **Maven**
 - ✅ Report generation using TestNG/Allure (optional)
 - ✅ JSON Schema Validation
+- ✅ XML Schema Validation
 
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Tool | Description |
-|------|-------------|
-| Java | Core language for test logic |
-| Maven | Build and dependency management |
-| Rest Assured | Fluent Java API for testing REST services |
-| TestNG | Test runner and test lifecycle manager |
-| Allure (Optional) | Test reporting framework |
+| Tool | Description                                    |
+|------|------------------------------------------------|
+| Java | Core language for test logic                   |
+| Maven | Build and dependency management                |
+| Rest Assured | Fluent Java API for testing REST/SOAP services |
+| TestNG | Test runner and test lifecycle manager         |
+| Allure (Optional) | Test reporting framework                       |
 
 ---
 
