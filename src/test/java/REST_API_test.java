@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 
 
-public class REST_APITest {
+public class REST_API_test {
 
     @Test
     public void testGet(){
