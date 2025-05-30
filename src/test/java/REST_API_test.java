@@ -14,7 +14,9 @@ public class REST_API_test {
         baseURI="https://reqres.in/api";
 
         given().
+                header("x-api-key", "reqres-free-v1").
           get("/users?page=2").
+
         then().
           statusCode(200).
           body("data[4].first_name",equalTo("George"));

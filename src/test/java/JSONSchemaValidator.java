@@ -13,9 +13,9 @@ public class JSONSchemaValidator {
     baseURI="https://reqres.in/api";
 
     given().
-            given().header("x-api-key", "reqres-free-v1").
+            header("x-api-key", "reqres-free-v1").
             get("/users?page=2").
-            then().
+    then().
             assertThat().body(matchesJsonSchemaInClasspath("schema.json")).
             statusCode(200);
 
